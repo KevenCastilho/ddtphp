@@ -1,0 +1,10 @@
+Site feito para todos HTTP Server's que tenham apache (XAMP, WAMP, Vertrigo, AppServ, ApacheTriad, etc).
+
+Caso de Error 500 , abra o arquivo httpd.config na pasta Apache/conf/ , procure por mod_rewrite e retire o # , após isso
+reinicie o Apache.
+
+Execute o arquivo INSTALL.sql no SQL Managment para executar as querys no SQL.
+
+Abra a database DB_Web, tabela WebSettings e insira as configurações de acordo com o seu servidor (ServerID,ServerName e GameLink são precisas para o status e o Login)
+
+Edite o arquivo config.inc.php da pasta includes , so edite as configurações HOST , USER , PASS , T_DB , W_DB e CONFIG_ID
